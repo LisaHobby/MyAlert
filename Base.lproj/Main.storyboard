@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itP-K0-xc0">
+                                <color key="backgroundColor" red="0.91096229790000005" green="0.52240697920000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="dFv-gj-IyO"/>
+                                </constraints>
+                                <state key="normal" title="中间显示">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vjW-OU-g6E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAw-XP-olq">
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4Rr-pX-vpR"/>
+                                </constraints>
+                                <state key="normal" title="中间显示+自定义停留时间">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fJW-tY-R1D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfS-sh-eDx">
+                                <color key="backgroundColor" red="0.0" green="0.27139261744966442" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wR7-JK-6t5"/>
+                                </constraints>
+                                <state key="normal" title="上方显示">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EPV-Nv-J5s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPF-SE-b6x">
+                                <color key="backgroundColor" red="1" green="0.27139261744966442" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="uK3-YD-Om9"/>
+                                </constraints>
+                                <state key="normal" title="上方显示+自定义停留时间">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M67-yf-Dlc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzM-qP-aH9">
+                                <color key="backgroundColor" red="1" green="0.94054110738255037" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="fa1-t9-M17"/>
+                                </constraints>
+                                <state key="normal" title="上方显示+自定义距顶端距离">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GpC-rx-zk9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWJ-vN-JDQ">
+                                <color key="backgroundColor" red="0.38357277684563756" green="0.94054110738255037" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2Fu-Xo-maW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="上方显示+自定义距顶端距离+自定义停留时间">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ovh-hm-PUe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y92-0s-CMZ">
+                                <color key="backgroundColor" red="0.0" green="0.52144505033557043" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="K5V-7S-rbg"/>
+                                </constraints>
+                                <state key="normal" title="下方显示">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UV7-iJ-zkr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4l-0J-Gur">
+                                <color key="backgroundColor" red="0.0" green="0.52144505033557043" blue="0.8390572567114094" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Fwt-V1-ei2"/>
+                                </constraints>
+                                <state key="normal" title="下方显示+自定义停留时间">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gx5-qE-LM5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="al3-CC-aSU">
+                                <color key="backgroundColor" red="1" green="0.32094169463087246" blue="0.8390572567114094" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5K0-dN-h1R"/>
+                                </constraints>
+                                <state key="normal" title="下方显示+自定义距底端距离">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wPF-Vj-kE6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6n-zd-mKJ">
+                                <color key="backgroundColor" red="1" green="0.32094169463087246" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RRt-JR-egu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="下方显示+自定义距底端距离+自定义停留时间">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="alert10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cGp-4M-9cB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="w6n-zd-mKJ" secondAttribute="trailing" constant="20" id="1aj-XK-Cp1"/>
+                            <constraint firstItem="w6n-zd-mKJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="2SC-2n-pgS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="al3-CC-aSU" secondAttribute="trailing" constant="20" id="2t1-dC-fSG"/>
+                            <constraint firstItem="wPF-SE-b6x" firstAttribute="top" secondItem="QfS-sh-eDx" secondAttribute="bottom" constant="10" id="3fh-I7-9DK"/>
+                            <constraint firstItem="itP-K0-xc0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="5uZ-1G-nay"/>
+                            <constraint firstItem="al3-CC-aSU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="8U9-Oc-Zrf"/>
+                            <constraint firstItem="QfS-sh-eDx" firstAttribute="top" secondItem="BAw-XP-olq" secondAttribute="bottom" constant="10" id="8o0-Wf-6Q9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="itP-K0-xc0" secondAttribute="trailing" constant="20" id="93P-1R-CU5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hWJ-vN-JDQ" secondAttribute="trailing" constant="20" id="DCp-Ss-G2I"/>
+                            <constraint firstItem="y92-0s-CMZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Ese-Zb-fRN"/>
+                            <constraint firstItem="t4l-0J-Gur" firstAttribute="top" secondItem="y92-0s-CMZ" secondAttribute="bottom" constant="10" id="NFF-IU-lg9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wPF-SE-b6x" secondAttribute="trailing" constant="20" id="O9w-oz-SEg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nzM-qP-aH9" secondAttribute="trailing" constant="20" id="PBH-Sg-l9V"/>
+                            <constraint firstItem="nzM-qP-aH9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="PCS-mL-8TW"/>
+                            <constraint firstItem="y92-0s-CMZ" firstAttribute="top" secondItem="hWJ-vN-JDQ" secondAttribute="bottom" constant="10" id="Q0j-YY-uwE"/>
+                            <constraint firstItem="QfS-sh-eDx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Tnf-tz-tiJ"/>
+                            <constraint firstItem="nzM-qP-aH9" firstAttribute="top" secondItem="wPF-SE-b6x" secondAttribute="bottom" constant="10" id="Ugn-e9-pyc"/>
+                            <constraint firstItem="BAw-XP-olq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="UqV-Hf-kTx"/>
+                            <constraint firstItem="w6n-zd-mKJ" firstAttribute="top" secondItem="al3-CC-aSU" secondAttribute="bottom" constant="10" id="bGk-XL-AcY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y92-0s-CMZ" secondAttribute="trailing" constant="20" id="c3B-mS-Puu"/>
+                            <constraint firstItem="hWJ-vN-JDQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="cZI-z3-jnf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QfS-sh-eDx" secondAttribute="trailing" constant="20" id="eGT-fG-cho"/>
+                            <constraint firstItem="BAw-XP-olq" firstAttribute="top" secondItem="itP-K0-xc0" secondAttribute="bottom" constant="10" id="eQ1-qJ-x50"/>
+                            <constraint firstItem="itP-K0-xc0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="fk5-g2-3tq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BAw-XP-olq" secondAttribute="trailing" constant="20" id="hJP-dY-tzV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="t4l-0J-Gur" secondAttribute="trailing" constant="20" id="mrH-AI-hfQ"/>
+                            <constraint firstItem="hWJ-vN-JDQ" firstAttribute="top" secondItem="nzM-qP-aH9" secondAttribute="bottom" constant="10" id="n0R-fZ-l3R"/>
+                            <constraint firstItem="wPF-SE-b6x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="qQh-IL-CQH"/>
+                            <constraint firstItem="t4l-0J-Gur" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="rEU-oE-C3R"/>
+                            <constraint firstItem="al3-CC-aSU" firstAttribute="top" secondItem="t4l-0J-Gur" secondAttribute="bottom" constant="10" id="s5H-7W-ZYL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
